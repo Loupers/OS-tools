@@ -22,3 +22,8 @@ Just add content of that file into your ~/.bashrc file, call `$ source ~/.bashrc
 ### zshrc
 
 Same as bashrc, but for your `~/.zshrc` file (if you are using zsh). Command to call this time is `$ gpull`
+
+### book.sh
+
+Script that downloads all parts of the book and unites them into one .pdf file.  
+It takes a while, just let it run for a bit, so all the data can be downloaded.
