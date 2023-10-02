@@ -4,6 +4,7 @@ REPO="${1:-upstream}"
 
 EXIST="$(git remote -v | grep $REPO)"
 
+#Create the connection if remote doesn't exist
 if [ -z "$EXIST" ];then
 	echo "$REPO NOT SET"
 	read -p "Do you want to set up new url for new repo? (y/n) " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
