@@ -19,7 +19,7 @@ git fetch "$REPO"
 
 echo "Merging upstream changes"
 
-git merge -m "Merge upstream changes" upstream/master
+git merge --squash -m "Merge upstream changes" upstream/master
 
 echo "Pushing merged changes"
 
